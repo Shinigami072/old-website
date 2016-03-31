@@ -1,0 +1,49 @@
+{
+	"meta":
+		{
+		"bg":"cambridge",
+		"current":0,
+		"actor":"popper"
+		},
+	"scenes": [
+	{
+		"comment":"0",
+		"events":[
+			
+			{"type":"question","name":"Karl Popper","time":1000,"timepadding":0,
+			"text":"Witaj, Wędrowcze!"
+			}
+		],
+		"options":[
+			{"target": 1, "text": "Dzień dobry!"},
+			{"target": 1, "text": "Witaj, Profesorze!"}
+		]	   
+	},
+
+	{
+		"comment":"1",
+		"events":[
+			
+			{"type":"question","name":"Karl Popper","time":1000,"timepadding":0,
+			"text":"W czym mogę pomóc?"
+			}
+		],
+		"options":[
+			{"target": 2, "text": "Dawaj miecz, starcze, bo cię obwarczę!"}
+		]	   
+	},
+
+	{
+		"comment":"2",
+		"events":[
+			{"type":"give","time":4600,"item":"popper"},
+			{"type":"question","name":"Karl Popper","time":1000,"timepadding":0,
+			"text":"Brutal!"
+			}
+		],
+		"options":[
+			{"target": 3, "text": "Life is brutal, dziadu! Pal gumę, ja idę na spotkanie z Konfuzjuszem."}
+		]	   
+	}
+	]
+}
